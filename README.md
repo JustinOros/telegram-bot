@@ -33,7 +33,7 @@ It uses OpenAI to generate short, casual responses while mirroring the user’s 
 
 ```bash
 git clone https://github.com/JustinOros/telegram-bot.git
-cd YOUR_REPO
+cd telegram-bot
 ```
 
 ### 2️⃣ Install dependencies
