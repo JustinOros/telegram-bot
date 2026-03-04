@@ -34,7 +34,7 @@ logger.addHandler(_file_handler)
 logger.addHandler(_console_handler)
 
 def create_env_file():
-    print("\n🚀 Welcome to TelegramGPT! First-time setup...\n")
+    print("\n🚀 Welcome to Telegram-bot! First-time setup...\n")
     openai_key = input("Enter your OpenAI API Key: ").strip()
     telegram_token = input("Enter your Telegram Bot Token: ").strip()
 
@@ -151,8 +151,8 @@ def main():
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     app.add_error_handler(error_handler)
 
-    logger.info("TelegramGPT started")
-    print("✅ TelegramGPT is running! Open Telegram and message your bot. (Ctrl+C to stop)\n")
+    logger.info("Telegram-bot started")
+    print("✅ Telegram-bot is running! Open Telegram and message your bot. (Ctrl+C to stop)\n")
     try:
         app.run_polling()
     except NetworkError:
