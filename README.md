@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ### 3️⃣ Run the bot
 
 ```bash
-python telegram-bot.py
+python3 telegram-bot.py
 ```
 
 On first run, it will prompt you for:
@@ -142,7 +142,7 @@ Ctrl + C
 If you're running the bot on macOS and want to prevent your computer from going to sleep, use:
 
 ```bash
-caffeinate -i python telegram-bot.py
+caffeinate -i python3 telegram-bot.py
 ```
 
 This keeps the system awake while the bot is running.
@@ -184,12 +184,6 @@ pip install -r requirements.txt
 * Never commit your `.env` file
 * If keys are exposed, immediately rotate them
 * Use a private repo if testing
-
----
-
-## 📄 License
-
-MIT (or add your preferred license)
 
 ---
 
